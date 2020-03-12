@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild01</defName>
+		<slot>Childhood</slot>
+		<title>Nomad child</title>
+		<titleShort>Nomad child</titleShort>
+		<baseDesc>[PAWN_nameDef] was born into a nomadic family of caravan traders. [PAWN_possessive] father, the caravan leader, taught [PAWN_objective] the caravan trade. Because [PAWN_pronoun] was able to barter or hunt for all of [PAWN_possessive] food, [PAWN_pronoun] never had to worry about growing or gathering food.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>2</value></li>
+			<li><key>Social</key><value>2</value></li>
+			<li><key>Animals</key><value>3</value></li>
+			<li><key>Plants</key><value>-3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild02</defName>
+		<slot>Childhood</slot>
+		<title>Caravan straggler</title>
+		<titleShort>Straggler</titleShort>
+		<baseDesc>Growing up in a large nomadic tribal caravan, [PAWN_nameDef] often strayed behind the group, leaving [PAWN_objective] to explore...and get into trouble. </baseDesc>
+		<skillGains>
+			<li><key>Animals</key><value>2</value></li>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Social</key><value>-3</value></li>
+			<li><key>Melee</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild03</defName>
+		<slot>Childhood</slot>
+		<title>Trampled child</title>
+		<titleShort>Trampled child</titleShort>
+		<baseDesc>As a young child, [PAWN_nameDef] was caught in a muffalo stampede and was nearly crushed to death. [PAWN_pronoun] survived, but now [PAWN_pronoun] has an extreme fear of animals. While recuperating from [PAWN_possessive] many injuries, [PAWN_pronoun] discovered [PAWN_pronoun] had a talent for healing and art.</baseDesc>
+		<skillGains>
+			<li><key>Medicine</key><value>2</value></li>
+			<li><key>Artistic</key><value>2</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</TribalRaiders_Code.BackstoryDef>
+		
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild04</defName>
+		<slot>Childhood</slot>
+		<title>Hunter child</title>
+		<titleShort>Hunter child</titleShort>
+		<baseDesc>From a young age, [PAWN_nameDef] followed [PAWN_possessive] father on hunting trips, learning to track and trap the most elusive of animals.</baseDesc>
+		<skillGains>
+			<li><key>Animals</key><value>2</value></li>
+			<li><key>Shooting</key><value>3</value></li>
+			<li><key>Melee</key><value>1</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Animals</li>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild05</defName>
+		<slot>Childhood</slot>
+		<title>Healer child</title>
+		<titleShort>Healer child</titleShort>
+		<baseDesc>From a young age, [PAWN_nameDef] followed [PAWN_possessive] tribe's elder healer, learning to scrounge up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies.</baseDesc>
+		<skillGains>
+			<li><key>Medicine</key><value>2</value></li>
+			<li><key>Plants</key><value>2</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Caring</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild06</defName>
+		<slot>Childhood</slot>
+		<title>Captive child</title>
+		<titleShort>Captive</titleShort>
+		<baseDesc>As a youg child, [PAWN_nameDef] was taken captive by an enemy tribe during a raid. [PAWN_pronoun] was forced to do hard manual labour. Over time [PAWN_possessive] new tribe became like family, and eventually, [PAWN_pronoun] was adopted as one of their own.</baseDesc>
+		<skillGains>
+			<li><key>Plants</key><value>2</value></li>
+			<li><key>Mining</key><value>1</value></li>
+			<li><key>Construction</key><value>1</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+			<li>PlantWork</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild07</defName>
+		<slot>Childhood</slot>
+		<title>Mute</title>
+		<titleShort>Mute</titleShort>
+		<baseDesc>[PAWN_nameDef] was greatly affected by a traumatic event early in [PAWN_possessive] life. For many years [PAWN_pronoun] refused to speak to anyone, preferring instead to spend time with [PAWN_possessive] tribe's animals.</baseDesc>
+		<skillGains>
+			<li><key>Animals</key><value>5</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Animals</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild08</defName>
+		<slot>Childhood</slot>
+		<title>Fire-scarred child</title>
+		<titleShort>Scarred child</titleShort>
+		<baseDesc>[PAWN_nameDef] was an active child who lived an uneventful childhood until [PAWN_pronoun] fell into a fire and suffered horrific burns to [PAWN_possessive] hands and arms. Although the scars have faded, [PAWN_pronoun] still can't bear to be in close proximity to fire.</baseDesc>
+		<skillGains>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Mining</key><value>1</value></li>
+			<li><key>Medicine</key><value>1</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Firefighting</li>
+			<li>Cooking</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild09</defName>
+		<slot>Childhood</slot>
+		<title>Plague survivor</title>
+		<titleShort>Plague survivor</titleShort>
+		<baseDesc>[PAWN_nameDef]'s entire tribe was wiped out by a mysterious disease. Found alone and adopted by another band, [PAWN_pronoun] never became close with other tribe members. [PAWN_pronoun] preferred to stay away from [PAWN_possessive] new home, wandering the woods and tending the animals.</baseDesc>
+		<skillGains>
+			<li><key>Animals</key><value>2</value></li>
+			<li><key>Shooting</key><value>2</value></li>
+			<li><key>Plants</key><value>2</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild10</defName>
+		<slot>Childhood</slot>
+		<title>Feral child</title>
+		<titleShort>Feral child</titleShort>
+		<baseDesc>[PAWN_nameDef] was discarded by [PAWN_possessive] family. Raised by wolves, [PAWN_pronoun] ran, hunted, and defended [PAWN_possessive] pack. [PAWN_pronoun] learned to fight efficiently by tooth and claw. [PAWN_pronoun] also learned brutally effective primal hunting strategies.</baseDesc>
+		<skillGains>
+			<li><key>Melee</key><value>6</value></li>
+			<li><key>Social</key><value>-2</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Animals</li>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>Firefighting</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild11</defName>
+		<slot>Childhood</slot>
+		<title>Cursed child</title>
+		<titleShort>Cursed child</titleShort>
+		<baseDesc>[PAWN_nameDef] was born at the peak of a lunar eclipse. The elders declared [PAWN_objective] a child of darkness and brought [PAWN_objective] under their care. [PAWN_possessive] entire childhood was spent studying the lore and rituals of [PAWN_possessive] people.</baseDesc>
+		<skillGains>
+			<li><key>Construction</key><value>-1</value></li>
+			<li><key>Intellectual</key><value>5</value></li>
+			<li><key>Medicine</key><value>4</value></li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild12</defName>
+		<slot>Childhood</slot>
+		<title>Dreamer</title>
+		<titleShort>Dreamer</titleShort>
+		<baseDesc>Since [PAWN_possessive] father was often away, [PAWN_nameDef] took on much responsibility around [PAWN_possessive] home. [PAWN_pronoun] learned the value of hard work, but never really had a childhood. Every day, [PAWN_nameDef] dreamed of leaving [PAWN_possessive] home and exploring the world.</baseDesc>
+		<skillGains>
+			<li><key>Construction</key><value>1</value></li>
+			<li><key>Intellectual</key><value>3</value></li>
+			<li><key>Social</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild13</defName>
+		<slot>Childhood</slot>
+		<title>Mechanoid survivor</title>
+		<titleShort>Mech survivor</titleShort>
+		<baseDesc>[PAWN_nameDef] and [PAWN_possessive] family grew up in a large and prosperous tribe. One day, though, a group of mechanoids attacked, killing everyone aside from [PAWN_nameDef]. [PAWN_pronoun] then lived alone in the wild until a group of tribal raiders found [PAWN_objective].</baseDesc>
+		<skillGains>
+			<li><key>Plants</key><value>2</value></li>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Crafting</key><value>1</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild14</defName>
+		<slot>Childhood</slot>
+		<title>Tribal orphan</title>
+		<titleShort>Orphan</titleShort>
+		<baseDesc>[PAWN_nameDef] grew up without parents. [PAWN_possessive] whole life was spent alone, fighting for survival in the wild. No matter how hard it became to survive, though, [PAWN_pronoun] never gave up.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>2</value></li>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild15</defName>
+		<slot>Childhood</slot>
+		<title>Killer</title>
+		<titleShort>Killer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a bloodlusting child. Villagers thought [PAWN_objective] the offspring of a snake demon, but the truth was more mundane. At a young age, [PAWN_nameDef] had watched [PAWN_possessive] human father betray and murder [PAWN_possessive] mother, and took it as a lesson to be emulated.</baseDesc>
+		<skillGains>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<forcedTraits>
+			<li><key>Psychopath</key><value>0</value></li>
+		</forcedTraits>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild16</defName>
+		<slot>Childhood</slot>
+		<title>Tribal sculptor</title>
+		<titleShort>Sculptor</titleShort>
+		<baseDesc>[PAWN_nameDef] was born into a loving but poor tribe. [PAWN_pronoun] discovered [PAWN_pronoun] had an artistic talent which [PAWN_pronoun] inherited from [PAWN_possessive] father. [PAWN_possessive] mother taught [PAWN_objective] the benefits of hard work and determination. As [PAWN_pronoun] grew older, [PAWN_nameDef] developed a fascination for ancient relics and tribal warfare.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>2</value></li>
+			<li><key>Melee</key><value>1</value></li>
+			<li><key>Artistic</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild17</defName>
+		<slot>Childhood</slot>
+		<title>Warrior child</title>
+		<titleShort>Warrior child</titleShort>
+		<baseDesc>[PAWN_nameDef]'s tribe forced [PAWN_objective] to train in hand-to-hand combat and fighting tactics. In [PAWN_possessive] own time, [PAWN_pronoun] crafted unique tools. This sharpened [PAWN_possessive] mind.</baseDesc>
+		<skillGains>
+			<li><key>Crafting</key><value>2</value></li>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Melee</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild18</defName>
+		<slot>Childhood</slot>
+		<title>Avid learner</title>
+		<titleShort>Learner</titleShort>
+		<baseDesc>[PAWN_nameDef] was curious about everything. While other children played games, [PAWN_nameDef] pestered the tribal elders and shamans with questions. [PAWN_pronoun] learned all he could about ancient technology, tribal lore, and weapons. But he never learned much about making friends.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>4</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+			<li><key>Crafting</key><value>2</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild19</defName>
+		<slot>Childhood</slot>
+		<title>Scout child</title>
+		<titleShort>Scout child</titleShort>
+		<baseDesc>[PAWN_nameDef]'s parents were tribal scouts. [PAWN_pronoun] learned many survival skills from them, including how to thrive in the outdoors and how to tend to basic wounds.</baseDesc>
+		<skillGains>
+			<li><key>Plants</key><value>2</value></li>
+			<li><key>Shooting</key><value>2</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild20</defName>
+		<slot>Childhood</slot>
+		<title>Tribal thunderer</title>
+		<titleShort>Thunderer</titleShort>
+		<baseDesc>Years ago, [PAWN_nameDef]'s tribe stumbled upon an abandoned gun vault. Believing the weapons to be sacred gifts, the shaman would select children born under auspicious circumstances and assign them the honour of bearing one of the weapons in defense of the village. [PAWN_nameDef] was such a child.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>6</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Crafting</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild21</defName>
+		<slot>Childhood</slot>
+		<title>War child</title>
+		<titleShort>War child</titleShort>
+		<baseDesc>War was a constant state of affairs between [PAWN_nameDef]'s tribe and their neighbors. Growing up surrounded by fighting and death, [PAWN_pronoun] became tough as nails and well accustomed to tragedy. [PAWN_possessive] expressive side, however, never developed.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Melee</key><value>4</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild22</defName>
+		<slot>Childhood</slot>
+		<title>War refugee</title>
+		<titleShort>Refugee</titleShort>
+		<baseDesc>When spacers descended upon [PAWN_possessive] tribal home with their war machines, [PAWN_nameDef] and [PAWN_possessive] father gathered what little food and belongings they could, and escaped into the wilderness.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Cooking</key><value>-2</value></li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild23</defName>
+		<slot>Childhood</slot>
+		<title>Sickly child</title>
+		<titleShort>Sickly child</titleShort>
+		<baseDesc>[PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents left [PAWN_objective] out in the elements. Somehow, [PAWN_pronoun] survived.</baseDesc>
+		<skillGains>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Crafting</key><value>3</value></li>
+			<li><key>Social</key><value>-2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild24</defName>
+		<slot>Childhood</slot>
+		<title>Cave child</title>
+		<titleShort>Cave child</titleShort>
+		<baseDesc>[PAWN_nameDef] grew up in a large and intricate cave complex that extended deep into a mountainside. [PAWN_pronoun] helped the adults maintain and improve the deep caves.</baseDesc>
+		<skillGains>
+			<li><key>Mining</key><value>3</value></li>
+			<li><key>Construction</key><value>3</value></li>
+		</skillGains>
+		<forcedTraits>
+			<li><key>Undergrounder</key><value>0</value></li>
+		</forcedTraits>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild25</defName>
+		<slot>Childhood</slot>
+		<title>Fire tender</title>
+		<titleShort>Fire tender</titleShort>
+		<baseDesc>In [PAWN_possessive] childhood, [PAWN_nameDef] was responsible for keeping the tribe's fire going. [PAWN_pronoun] took this responsibility very seriously.</baseDesc>
+		<skillGains>
+			<li><key>Crafting</key><value>2</value></li>
+			<li><key>Cooking</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild26</defName>
+		<slot>Childhood</slot>
+		<title>Herder</title>
+		<titleShort>Herder</titleShort>
+		<baseDesc>As a child, [PAWN_nameDef] tended the tribe's muffalo herds, keeping them safe from predators and treating the sick. It was quiet work, but [PAWN_pronoun] enjoyed being away from people.</baseDesc>
+		<skillGains>
+			<li><key>Animals</key><value>3</value></li>
+			<li><key>Medicine</key><value>3</value></li>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Social</key><value>-2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild27</defName>
+		<slot>Childhood</slot>
+		<title>Reclusive child</title>
+		<titleShort>Recluse</titleShort>
+		<baseDesc>[PAWN_nameDef] didn't learn to speak until [PAWN_pronoun] was nearly 5 years old, and, even then, [PAWN_pronoun] preferred to keep to [PAWN_objective]self. When [PAWN_pronoun] was in [PAWN_possessive] early teens, [PAWN_pronoun] made a habit of wandering off from the village to live in the wilderness for weeks at a time.</baseDesc>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Crafting</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild28</defName>
+		<slot>Childhood</slot>
+		<title>Scavenger</title>
+		<titleShort>Scavenger</titleShort>
+		<baseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood escaping grunt work to go digging through wrecks and ruins for treasures. [PAWN_possessive] natural curiosity got [PAWN_objective] into a lot of trouble, but it also yielded many interesting finds.</baseDesc>
+		<skillGains>
+			<li><key>Mining</key><value>3</value></li>
+			<li><key>Intellectual</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild29</defName>
+		<slot>Childhood</slot>
+		<title>Raid survivor</title>
+		<titleShort>Raid survivor</titleShort>
+		<baseDesc>[PAWN_nameDef]'s entire tribe was wiped out in a raid. Though [PAWN_pronoun] was adopted by another group, [PAWN_pronoun] was emotionally scarred, and preferred to stay near home, cooking and tending crops.</baseDesc>
+		<workDisables>
+			<li>Firefighting</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Plants</key><value>3</value></li>
+			<li><key>Cooking</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild30</defName>
+		<slot>Childhood</slot>
+		<title>Tribe child</title>
+		<titleShort>Tribal child</titleShort>
+		<baseDesc>[PAWN_nameDef] grew up in the tribe, running around the village, moving with the muffalo herds, learning essential skills from [PAWN_possessive] parents. [PAWN_pronoun] never learned to read and never saw a machine that wasn't an ancient ruin.</baseDesc>
+		<skillGains>
+			<li><key>Animals</key><value>2</value></li>
+			<li><key>Plants</key><value>2</value></li>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Shooting</key><value>2</value></li>
+			<li><key>Intellectual</key><value>-3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild31</defName>
+		<slot>Childhood</slot>
+		<title>Vengeful child</title>
+		<titleShort>Vengeful child</titleShort>
+		<baseDesc>As a child, [PAWN_nameDef] returned to [PAWN_possessive] village to find that it had been wiped out by bandits. [PAWN_pronoun] swore revenge on the attackers and began a violent rampage across the wilderness.</baseDesc>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Shooting</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild32</defName>
+		<slot>Childhood</slot>
+		<title>Abandoned child</title>
+		<titleShort>Abandoned child</titleShort>
+		<baseDesc>[PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents left [PAWN_objective] out in the elements. Somehow, [PAWN_pronoun] survived.</baseDesc>
+		<skillGains>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Crafting</key><value>3</value></li>
+			<li><key>Social</key><value>-2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderChild33</defName>
+		<slot>Childhood</slot>
+		<title>Chief's child</title>
+		<titleShort>Chief's child</titleShort>
+		<baseDesc>From a young age, [PAWN_nameDef] was trained to be a tribal leader. [PAWN_pronoun] learned to hunt and fight from the tribe's most skilled hunters and bravest warriors. Due to [PAWN_possessive] prominent position, [PAWN_nameDef] never knew manual labor or learned many skills.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Social</key><value>4</value></li>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Plants</key><value>-1</value></li>
+			<li><key>Crafting</key><value>-1</value></li>
+			<li><key>Cooking</key><value>-1</value></li>
+			<li><key>Mining</key><value>-1</value></li>
+			<li><key>Construction</key><value>-1</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+</Defs>

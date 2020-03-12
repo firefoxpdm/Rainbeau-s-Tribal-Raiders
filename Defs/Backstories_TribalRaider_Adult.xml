@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult01</defName>
+		<slot>Adulthood</slot>
+		<title>Sole survivor</title>
+		<titleShort>Survivor</titleShort>
+		<baseDesc>[PAWN_nameDef] lived in a remote tribal village. When mechanoid centipedes attacked [PAWN_possessive] home and killed [PAWN_possessive] people, [PAWN_pronoun] was the last survivor.</baseDesc>
+		<workDisables>
+			<li>Firefighting</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Social</key><value>-3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult02</defName>
+		<slot>Adulthood</slot>
+		<title>Tribal hunter</title>
+		<titleShort>Hunter</titleShort>
+		<baseDesc>A proficient hunter and tracker, [PAWN_nameDef] yearned for more. [PAWN_pronoun] took leave from [PAWN_possessive] village, traveling the world in search of exotic game.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>5</value></li>
+			<li><key>Melee</key><value>1</value></li>
+			<li><key>Cooking</key><value>1</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+			<li><key>Crafting</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult03</defName>
+		<slot>Adulthood</slot>
+		<title>Storyteller</title>
+		<titleShort>Storyteller</titleShort>
+		<baseDesc>To fill [PAWN_possessive] belly, [PAWN_nameDef] would wander from village to village recounting tribal legends and lore.</baseDesc>
+		<workDisables>
+			<li>Cooking</li>
+			<li>Mining</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Social</key><value>4</value></li>
+			<li><key>Artistic</key><value>3</value></li>
+			<li><key>Crafting</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult04</defName>
+		<slot>Adulthood</slot>
+		<title>Wandering healer</title>
+		<titleShort>Healer</titleShort>
+		<baseDesc>[PAWN_nameDef] learned to be a healer, but never gained the respect of [PAWN_possessive] exacting teacher. Chafing under his overbearing tutelage, [PAWN_pronoun] chose to leave the safety of [PAWN_possessive] village and travel the world to seek [PAWN_possessive] fame and fortune.</baseDesc>
+		<skillGains>
+			<li><key>Social</key><value>4</value></li>
+			<li><key>Cooking</key><value>2</value></li>
+			<li><key>Medicine</key><value>6</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult05</defName>
+		<slot>Adulthood</slot>
+		<title>War chief</title>
+		<titleShort>War chief</titleShort>
+		<baseDesc>[PAWN_nameDef] is a tribal raider leader. For [PAWN_objective], the battlefield is a game, and there is nothing more fun than the fires of war.</baseDesc>
+		<workDisables>
+			<li>Hauling</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Shooting</key><value>6</value></li>
+			<li><key>Melee</key><value>6</value></li>
+			<li><key>Social</key><value>4</value></li>
+		</skillGains>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult06</defName>
+		<slot>Adulthood</slot>
+		<title>Bandit leader</title>
+		<titleShort>Bandit</titleShort>
+		<baseDesc>[PAWN_nameDef] became proficient at ambushing caravans, eventually becoming the leader of one of the most notorious gangs of tribal raider bandits.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>6</value></li>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Social</key><value>6</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult07</defName>
+		<slot>Adulthood</slot>
+		<title>Tribal faction leader</title>
+		<titleShort>Leader</titleShort>
+		<baseDesc>Early in [PAWN_possessive] adulthood, [PAWN_nameDef] found [PAWN_objective]self surrounded by a gaggle of tribal low-lifes. Just for fun, [PAWN_pronoun] gathered them together and lead them to certain death. [PAWN_pronoun] knew then that [PAWN_pronoun] had the talent to realize [PAWN_possessive] ambitions of leadership.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>4</value></li>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Social</key><value>8</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult08</defName>
+		<slot>Adulthood</slot>
+		<title>Hermit</title>
+		<titleShort>Hermit</titleShort>
+		<baseDesc>Separated from [PAWN_possessive] tribe after a disaster, [PAWN_nameDef] found [PAWN_objective]self lost and alone. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.</baseDesc>
+		<skillGains>
+			<li><key>Animals</key><value>3</value></li>
+			<li><key>Plants</key><value>3</value></li>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Crafting</key><value>3</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Artistic</li>
+			<li>Social</li>
+		</workDisables>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult09</defName>
+		<slot>Adulthood</slot>
+		<title>Master trader</title>
+		<titleShort>Trader</titleShort>
+		<baseDesc>[PAWN_nameDef] is a master at trading, known for [PAWN_possessive] ruthless bargaining skills.</baseDesc>
+		<skillGains>
+			<li><key>Social</key><value>8</value></li>
+			<li><key>Cooking</key><value>2</value></li>
+			<li><key>Artistic</key><value>4</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult10</defName>
+		<slot>Adulthood</slot>
+		<title>Raider chief</title>
+		<titleShort>Raider chief</titleShort>
+		<baseDesc>After joining a tribal raider faction, [PAWN_nameDef]'s charismatic yet cunning nature allowed [PAWN_objective] to win over [PAWN_possessive] fellow raiders and usurp the leader's position as raider chief. [PAWN_possessive] band of raiders has gained notoriety across the world.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>5</value></li>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Social</key><value>6</value></li>
+		</skillGains>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult11</defName>
+		<slot>Adulthood</slot>
+		<title>Ruthless tribal raider</title>
+		<titleShort>Ruthless raider</titleShort>
+		<baseDesc>Captured by a band of tribal raiders, [PAWN_nameDef] discovered that [PAWN_pronoun] fit in perfectly with [PAWN_possessive] captors. Shortly after becoming one of the tribe, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way... including [PAWN_possessive] fellow raiders.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>8</value></li>
+			<li><key>Melee</key><value>6</value></li>
+			<li><key>Artistic</key><value>-2</value></li>
+		</skillGains>
+		<forcedTraits>
+			<li><key>Psychopath</key></li>
+		</forcedTraits>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<workDisables>
+			<li>Social</li>
+			<li>Caring</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult12</defName>
+		<slot>Adulthood</slot>
+		<title>Tribal raider chief</title>
+		<titleShort>Raider chief</titleShort>
+		<baseDesc>As a tribal raider chief, [PAWN_nameDef] is well-known for [PAWN_possessive] cunning plans and skillful traps. [PAWN_pronoun] is never afraid to sacrifice a few pawns to capture an important target. [PAWN_possessive] name has been linked more than once to strategies that overcame overwhelming odds.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Social</key><value>8</value></li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult13</defName>
+		<slot>Adulthood</slot>
+		<title>Vengeful chief</title>
+		<titleShort>Vengeful chief</titleShort>
+		<baseDesc>[PAWN_nameDef] was a proud tribal raider chief, until [PAWN_pronoun] was ousted from [PAWN_possessive] position by a mutinous rebellion. Lucky to escape with [PAWN_possessive] life, [PAWN_pronoun] vowed to seek revenge and regain [PAWN_possessive] position.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>6</value></li>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Social</key><value>-2</value></li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult14</defName>
+		<slot>Adulthood</slot>
+		<title>Captured tribal raider</title>
+		<titleShort>Captured raider</titleShort>
+		<baseDesc>During a raid, [PAWN_nameDef] was captured by tribal raiders. Starting as nothing more than a slave, [PAWN_pronoun] rose quickly among the raider ranks until all knew [PAWN_possessive] name and [PAWN_possessive] ruthlessness.</baseDesc>
+		<skillGains>
+			<li><key>Mining</key><value>3</value></li>
+			<li><key>Shooting</key><value>5</value></li>
+			<li><key>Melee</key><value>5</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult15</defName>
+		<slot>Adulthood</slot>
+		<title>Shaman of shadows</title>
+		<titleShort>Shaman</titleShort>
+		<baseDesc>When the monsters of fire came from the sky, [PAWN_nameDef] was called upon by [PAWN_possessive] tribe to guide them into battle. [PAWN_nameDef] made use of medicines and rituals to inspire and lead the warriors against the invaders. Despite their superior technology, the pirates were forced to retreat without capturing a single slave.</baseDesc>
+		<skillGains>
+			<li><key>Construction</key><value>-2</value></li>
+			<li><key>Plants</key><value>2</value></li>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Social</key><value>8</value></li>
+			<li><key>Medicine</key><value>6</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult16</defName>
+		<slot>Adulthood</slot>
+		<title>Tribal wanderer</title>
+		<titleShort>Wanderer</titleShort>
+		<baseDesc>A violent drifter without a home, [PAWN_nameDef] fought in many wars and battles. [PAWN_pronoun] became a grizzled warrior and a deadly shot.</baseDesc>
+		<skillGains>
+			<li><key>Construction</key><value>4</value></li>
+			<li><key>Shooting</key><value>6</value></li>
+			<li><key>Melee</key><value>6</value></li>
+		</skillGains>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult17</defName>
+		<slot>Adulthood</slot>
+		<title>Wandering crafter</title>
+		<titleShort>Crafter</titleShort>
+		<baseDesc>[PAWN_nameDef] followed [PAWN_possessive] parents' nomadic ways, supporting [PAWN_objective]self with [PAWN_possessive] crafting skills. But wandering is a hard life, and [PAWN_pronoun] often thought of finding somewhere to settle down and put [PAWN_possessive] skills to good use.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Shooting</key><value>3</value></li>
+			<li><key>Crafting</key><value>8</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult18</defName>
+		<slot>Adulthood</slot>
+		<title>Banished warrior</title>
+		<titleShort>Banished warrior</titleShort>
+		<baseDesc>Accused of murdering a prominent tribal elder, [PAWN_nameDef] was banished from [PAWN_possessive] tribe. Rumors of [PAWN_possessive] crime followed [PAWN_objective], and no other tribe would accept [PAWN_objective]. Forced to wander the world, [PAWN_pronoun] supported [PAWN_objective]self as he could with [PAWN_possessive] crafting or [PAWN_possessive] combat skills. But wandering is a hard life, and [PAWN_pronoun] often dreamed of finding a tribe that would welcome [PAWN_objective] permanently.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Shooting</key><value>8</value></li>
+			<li><key>Crafting</key><value>6</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult19</defName>
+		<slot>Adulthood</slot>
+		<title>Thief</title>
+		<titleShort>Thief</titleShort>
+		<baseDesc>[PAWN_nameDef] was caught stealing from a respected shaman and banished from the tribe. [PAWN_pronoun] joined a tribe of raiders and adopted their brutal ways. Knowing that showing weakness could be fatal, [PAWN_pronoun] closed [PAWN_objective]self off to others.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>2</value></li>
+			<li><key>Melee</key><value>4</value></li>
+		</skillGains>
+		<workDisables>
+			<li>Caring</li>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult20</defName>
+		<slot>Adulthood</slot>
+		<title>Tribal raider</title>
+		<titleShort>Raider</titleShort>
+		<baseDesc>As a young adult, [PAWN_nameDef] abandoned [PAWN_possessive] tribe and joined a band of raiders. [PAWN_pronoun] found camaraderie amongst its members, even if [PAWN_pronoun] did have to constantly watch [PAWN_possessive] back around them.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>5</value></li>
+			<li><key>Melee</key><value>5</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult21</defName>
+		<slot>Adulthood</slot>
+		<title>Loner</title>
+		<titleShort>Loner</titleShort>
+		<baseDesc>[PAWN_nameDef] never much liked the tribal council or the yearly festivals. [PAWN_pronoun] prefers the open plain and the lonely whistle of wind through the rocks. [PAWN_pronoun] visits [PAWN_possessive] tribe from time to time, but for the most part [PAWN_pronoun] takes care of [PAWN_objective]self using [PAWN_possessive] own survival skills.</baseDesc>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Shooting</key><value>3</value></li>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Plants</key><value>5</value></li>
+			<li><key>Construction</key><value>3</value></li>
+		</skillGains>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult22</defName>
+		<slot>Adulthood</slot>
+		<title>Scout</title>
+		<titleShort>Scout</titleShort>
+		<baseDesc>Since [PAWN_possessive] tribe has made contact with local outlanders, [PAWN_nameDef] has contracted [PAWN_possessive] services out as a guide to the local area. Frequent contact with ancient relics has made [PAWN_objective] fairly comfortable with the old technology.</baseDesc>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<skillGains>
+			<li><key>Shooting</key><value>2</value></li>
+			<li><key>Intellectual</key><value>4</value></li>
+			<li><key>Social</key><value>4</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult23</defName>
+		<slot>Adulthood</slot>
+		<title>Warrior</title>
+		<titleShort>Warrior</titleShort>
+		<baseDesc>[PAWN_nameDef] is a fearsome warrior, proficient with many weapons. [PAWN_pronoun] has participated in many battles.</baseDesc>
+		<skillGains>
+			<li><key>Melee</key><value>8</value></li>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Social</key><value>-2</value></li>
+		</skillGains>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult24</defName>
+		<slot>Adulthood</slot>
+		<title>Gatherer</title>
+		<titleShort>Gatherer</titleShort>
+		<baseDesc>[PAWN_nameDef] is a master gatherer. [PAWN_pronoun] can find food in the most barren of places using [PAWN_possessive] deep knowledge of plants, roots, and berries.</baseDesc>
+		<skillGains>
+			<li><key>Plants</key><value>8</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult25</defName>
+		<slot>Adulthood</slot>
+		<title>Lore keeper</title>
+		<titleShort>Keeper</titleShort>
+		<baseDesc>[PAWN_nameDef] is one of a long line of lore keepers in [PAWN_possessive] tribe. Every night around the fire, [PAWN_pronoun] passes on ancient knowledge and helpful wisdom through stories, all designed to improve [PAWN_possessive] tribe's raiding.</baseDesc>
+		<requiredWorkTags>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<skillGains>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Social</key><value>4</value></li>
+			<li><key>Artistic</key><value>4</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult26</defName>
+		<slot>Adulthood</slot>
+		<title>Weaver</title>
+		<titleShort>Weaver</titleShort>
+		<baseDesc>[PAWN_nameDef] is an expert at working muffalo wool, plant fibres and natural dyes into beautiful clothing for [PAWN_possessive] kin. [PAWN_possessive] beautiful handicrafts are traded frequently between local tribes, and then often stolen back to be sold or traded again.</baseDesc>
+		<skillGains>
+			<li><key>Crafting</key><value>6</value></li>
+			<li><key>Plants</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult27</defName>
+		<slot>Adulthood</slot>
+		<title>Caravan leader</title>
+		<titleShort>Caravan leader</titleShort>
+		<baseDesc>[PAWN_nameDef] is the leader of a tribal trade caravan. Due to [PAWN_possessive] nomadic lifestyle, [PAWN_pronoun] hunts, barters, and sometimes raids for [PAWN_possessive] food.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>5</value></li>
+			<li><key>Social</key><value>5</value></li>
+			<li><key>Plants</key><value>-3</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult28</defName>
+		<slot>Adulthood</slot>
+		<title>Caravan member</title>
+		<titleShort>Nomad</titleShort>
+		<baseDesc>[PAWN_nameDef] is a member of a nomadic tribal trade caravan. [PAWN_pronoun] is often tasked with caring for the pack animals. Because [PAWN_pronoun] is able to barter or hunt for all of [PAWN_possessive] food, [PAWN_pronoun] never has to worry about growing or gathering food.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Social</key><value>3</value></li>
+			<li><key>Animals</key><value>5</value></li>
+			<li><key>Plants</key><value>-3</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Violent</li>
+			<li>Animals</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult29</defName>
+		<slot>Adulthood</slot>
+		<title>Carver</title>
+		<titleShort>Carver</titleShort>
+		<baseDesc>[PAWN_nameDef] is an expert at carving wood, stone, and bone into beautiful tools and art objects for [PAWN_possessive] tribe. [PAWN_possessive] beautiful handicrafts are traded frequently between local tribes, then often stolen back to be sold or traded again.</baseDesc>
+		<skillGains>
+			<li><key>Construction</key><value>2</value></li>
+			<li><key>Crafting</key><value>5</value></li>
+			<li><key>Artistic</key><value>3</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>ManualSkilled</li>
+			<li>Artistic</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult30</defName>
+		<slot>Adulthood</slot>
+		<title>Tribal drummer</title>
+		<titleShort>Drummer</titleShort>
+		<baseDesc>[PAWN_nameDef] is a drummer for [PAWN_possessive] tribe. [PAWN_pronoun] performs songs for ceremonies and festivals, but specializes in war chants.</baseDesc>
+		<skillGains>
+			<li><key>Artistic</key><value>6</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Artistic</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+
+	<TribalRaiders_Code.BackstoryDef>
+		<defName>TribalRaiderAdult31</defName>
+		<slot>Adulthood</slot>
+		<title>Tribal captive</title>
+		<titleShort>Captive</titleShort>
+		<baseDesc>[PAWN_nameDef] was taken captive by an enemy tribe during a raid. [PAWN_pronoun] was forced to do hard manual labour. Over time [PAWN_possessive] new tribe has become like family. [PAWN_pronoun] has begun to raid with them, and hopes to be adopted as one of their own.</baseDesc>
+		<skillGains>
+			<li><key>Plants</key><value>4</value></li>
+			<li><key>Construction</key><value>2</value></li>
+			<li><key>Mining</key><value>2</value></li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+			<li>PlantWork</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<spawnCategories>
+			<li>TribalRaider</li>
+		</spawnCategories>
+	</TribalRaiders_Code.BackstoryDef>
+	
+</Defs>

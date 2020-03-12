@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>[RF] Tribal Raiders [1.0]</name>
+	<author>Rainbeau Flambe</author>
+	<url>https://ludeon.com/forums/index.php?topic=46165</url>
+	<targetVersion>1.0.0</targetVersion>
+	<description>(Last update: 10/14/2018)
+
+This mod adds a new "tribal raider" faction. Like pirates, tribal raiders raid you just because they can, and cannot be appeased with silver or by releasing prisoners. Be forewarned, worlds which include tribal raider factions can be quite hostile to newcomers!
+
+It also adds a "tribal planet" configuration option. If this option (accessible from the game's "Options" menu) is selected, outlander and pirate factions will be disabled, so that worlds will generate with nothing but tribal and tribal raider settlements. (And also, of course, settlements for any factions added by other active mods.) Spacer and mechanoid factions won't be disabled, though, so you'll still have to deal with mechanoid raids in the later game, and might still come across "ancient danger" crypts.
+
+- Rainbeau Flambe (dburgdorf)
+
+=====
+
+Compatibility:
+
+You shouldn't see any compatibility issues with this mod. You can add it to a game in progress, but unless you're using Orion's "Faction Discovery" or a similar mod, you won't see tribal raiders added to the game. Trying to remove it from a game in progress which includes any tribal raider factions will, of course, make the game unplayable.
+
+=====
+
+Credits:
+
+The mod utilizes Pardeike's "Harmony Patch Library." (No additional download is required, as the library is included with the mod.)
+
+Obviously, credit is due to RimRue, the creator of the original a17 version of the mod!
+
+=====
+
+License:
+
+If you're a modpack maker and want to include "Tribal Raiders" in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it, and be sure to credit both me and RimRue. 
+
+=====
+
+If you have any (helpful) suggestions for improvement, please let me know!
+
+	</description>
+
+</ModMetaData>

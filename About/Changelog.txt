@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------
+  Changelog for "Rainbeau's Tribal Raiders"
+---------------------------------------------------------------------------------
+
+- 10/14/2018
+	- Updated to RimWorld 1.0 release!
+
+- 10/07/2018
+	- Allowed for more variety in tribal raider body types.
+	- Updated the version of the Harmony library the mod uses.
+
+- 09/19/2018
+	- Adjusted the "young warrior" pawn kind to bring it into line with vanilla's
+	  new "penitant" pawn kind.
+	- Fixed name and pronoun references in tribal raider backstories.
+	- Tribal raiders will now draw backstories only from the tribal raiders set,
+	  and not from the vanilla tribal set.
+
+- 09/18/2018
+	- Updated to RimWorld b19 release.
+	- Added "tribal planet" option to allow creation of worlds with only tribal
+	  and tribal raider settlements.
+	- Cleaned up and expanded (slightly) the lists of raider backgrounds.
+	- Removed "Mod Sync Ninja" files.
+
+- 12/31/2017
+	- Added a "young warrior" pawn kind with a weaker combat strength, in order
+	  to allow tribal raider factions to be usable for early (35 point) raids.
+
+- 12/12/2017
+	- The mod now works with the "Mod Sync Ninja" updater.
+
+- 12/10/2017
+	- Updated RimRue's mod to RimWorld b18 release.
+	- Removed the dependencies upon either "Humanoid Alien Races" or "Editable
+	  Backstories." The mod can now be used solely on its own.
+
+- 05/24/2017
+	- Initial RimWorld a17 release by RimRue.

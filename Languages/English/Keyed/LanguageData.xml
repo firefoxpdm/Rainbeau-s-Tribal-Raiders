@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TribalRaiders.Title>Rainbeau's Tribal Raiders</TribalRaiders.Title>
+
+	<TribalRaiders.TribalPlanet>Create "Tribal Planet."</TribalRaiders.TribalPlanet>
+	<TribalRaiders.TribalPlanetTip>If this is checked, outlander and pirate factions will be disabled, so that worlds will generate with nothing but tribal and tribal raider settlements. (And also, of course, settlements for any factions added by other active mods.) Spacer and mechanoid factions won't be disabled, though, so you'll still have to deal with mechanoid raids in the later game, and might still come across "ancient danger" crypts.</TribalRaiders.TribalPlanetTip>
+	
+</LanguageData>
