@@ -15,7 +15,7 @@
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>raider chief</leaderTitle>
-		<expandingIconTexture>TribalRaiderOutpost</expandingIconTexture>
+		<factionIconPath>TribalRaiderOutpost</factionIconPath>
 		<colorSpectrum>
 			<li>(0.45, 0.03, 0.02)</li>
 			<li>(0.8, 0.08, 0.18)</li>
@@ -101,7 +101,7 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
-		<homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
+		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
 	</FactionDef>
   
 </Defs>
