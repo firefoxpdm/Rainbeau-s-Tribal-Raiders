@@ -3,6 +3,13 @@
 
 	<FactionDef>
 		<defName>TribalRaiders</defName>
+		    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
 		<label>tribal raiders</label>
 		<description>A gang of tribal raiders.\n\nTribal raiders don't sow, they don't build, and they rarely trade. They enrich themselves mostly by raiding and robbing the more productive groups in the area.\n\nTheir technology level is neolithic, but their thirst for blood is legendary.</description>
 		<pawnSingular>raider</pawnSingular>
